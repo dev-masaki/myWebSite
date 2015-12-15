@@ -1,0 +1,95 @@
+/*	style.css */
+
+#header {
+	background-color: white;
+	border-radius: 5px;
+}
+body {
+	background-image: url("./image/starbucks.jpg");
+	font-family: tahoma;
+}
+.header-nav > div >ul > li {
+	list-style: none;
+	display: inline;
+	margin-left: 5%;
+}
+
+#menu {
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+#profile {
+	background-color: white;
+	border-radius: 5px;
+}
+
+#profile > .profile-carrer {
+
+}
+
+#skill {
+	background-color: white;
+	border-radius: 5px;
+}
+.skill-tag {
+	width: 40%;
+	padding: 100px 10px;
+	box-sizing: border-box;
+}
+
+.skill-tag > span {
+
+}
+.research {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.research > h2 {
+	font-size: 21pt;
+}
+.research > ul > li{
+	display: inline;
+	list-style: none;
+}
+
+.environment {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.sns {
+	
+}
+
+.sns > .twitter {
+	background-color: #55acee;
+	font-color: white;
+	border-radius: 5px;
+}
+
+.sns > .facebook {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.sns > .github {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.sns > .qiita {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.sns > .slideshare {
+	background-color: white;
+	border-radius: 5px;
+}
+
+#footer {
+	text-align: center;
+}
