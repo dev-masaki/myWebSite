@@ -25,12 +25,15 @@ header {
 	background-image: url(image/starbucks.jpg);
 	background-size: cover;
 	border-radius: 5px;
+	margin-top: 7%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 /*------------ PROF ---------------------*/
 .prof-wrapper {
 	background-color: #82be28;
 	color: white;
-	margin-left: 10px;
+	margin: 20px 20%;
 	border-radius: 5px;
 }
 
@@ -40,6 +43,7 @@ header {
 	color: white;
 	margin-left: 10px;
 	border-radius: 5px;
+	margin: 20px 20%;
 	
 }
 
@@ -80,6 +84,7 @@ header {
 	color: white;
 	margin-left: 10px;
 	border-radius: 5px;
+	margin: 20px 20%;
 }
 
 /*------------- ENVIRONMENT -----------------*/
@@ -88,6 +93,7 @@ header {
 	color: white;
 	margin-left: 10px;
 	border-radius: 5px;
+	margin: 20px 20%;
 }
 
 /*------------- PROJECTS -----------------*/
@@ -96,6 +102,7 @@ header {
 	color: white;
 	margin-left: 10px;
 	border-radius: 5px;
+	margin: 20px 20%;
 }
 
 /*------------- ACCOUNT -----------------*/
