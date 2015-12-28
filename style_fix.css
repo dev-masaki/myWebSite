@@ -1,0 +1,156 @@
+body {
+	font-family: Chalkboard SE;
+	background-image: url(image/hougan.jpg);
+	background-size: cover;
+}
+
+/*------------ HEADER -------------------*/
+header {
+	background-color: white;
+	height:40px;
+	width: 100%;
+	opacity: 0.9;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+
+}
+
+.header-left > h2 {
+	margin-left: 10px;
+}
+/*------------ TOP ----------------------*/
+.top-wrapper {
+	padding: 200px 0 200px 0;
+	background-image: url(image/starbucks.jpg);
+	background-size: cover;
+	border-radius: 5px;
+}
+/*------------ PROF ---------------------*/
+.prof-wrapper {
+	background-color: #82be28;
+	color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+/*------------ SKILL --------------------*/
+.skill-wrapper {
+	background-color: #82be28;
+	color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+	
+}
+
+.heading {
+
+}
+
+.heading > h2 {
+	font-weight: bold;
+}
+
+.lang {
+	/* float: left; */
+}
+
+.C {
+
+}
+
+.Ruby{
+
+}
+
+.Swift {
+	
+}
+
+.Java {
+
+}
+
+.Haskell {
+	
+}
+/*------------- RESEARCH -----------------*/
+.research-wrapper {
+	background-color: #82be28;
+	color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+/*------------- ENVIRONMENT -----------------*/
+.environment-wrapper {
+	background-color: #82be28;
+	color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+/*------------- PROJECTS -----------------*/
+.projects-wrapper {
+	background-color: #82be28;
+	color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+/*------------- ACCOUNT -----------------*/
+.account-wrapper {
+	text-align: center;
+	margin-bottom: 100px;
+	color: white;
+}
+
+.button {
+	padding: 10px 10px;
+	font-color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.button:hover {
+	opacity: 1;
+}
+
+.twitter {
+	background-color: #55acee;
+	color: white;
+
+}
+
+.facebook {
+	background-color: #3b5998;
+	color: white;
+}
+
+.github {
+	background-color: black;
+	color: white;
+}
+
+.qiita {
+	background-color: #7CFC00;
+	color: white;
+}
+
+.slideshare {
+	background-color: #00008B;
+	color: white;
+}
+
+.fa {
+	margin-right: 5px;
+}
+
+/*------------- FOOTER -----------------*/
+
+footer {
+	text-align: center;
+}
+
