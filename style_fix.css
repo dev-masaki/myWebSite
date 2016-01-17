@@ -1,163 +1,166 @@
-body {
-	font-family: Chalkboard SE;
-	background-image: url(image/hougan.jpg);
-	background-size: cover;
-}
 
-/*------------ HEADER -------------------*/
-header {
-	background-color: white;
-	height:40px;
-	width: 100%;
-	opacity: 0.9;
-	position: fixed;
-	top: 0;
-	z-index: 10;
+	body {
+		font-family: Chalkboard SE;
+		background-image: url(image/hougan.jpg);
+		background-size: cover;
+	}
 
-}
+	/*------------ HEADER -------------------*/
+	header {
+		background-color: white;
+		height:40px;
+		width: 100%;
+		opacity: 0.9;
+		position: fixed;
+		top: 0;
+		z-index: 10;
 
-.header-left > h2 {
-	margin-left: 10px;
-}
-/*------------ TOP ----------------------*/
-.top-wrapper {
-	padding: 200px 0 200px 0;
-	background-image: url(image/starbucks.jpg);
-	background-size: cover;
-	border-radius: 5px;
-	margin-top: 7%;
-	margin-right: 10%;
-	margin-left: 10%;
-}
-/*------------ PROF ---------------------*/
-.prof-wrapper {
-	background-color: #82be28;
-	color: white;
-	margin: 20px 20%;
-	border-radius: 5px;
-}
+	}
 
-/*------------ SKILL --------------------*/
-.skill-wrapper {
-	background-color: #82be28;
-	color: white;
-	margin-left: 10px;
-	border-radius: 5px;
-	margin: 20px 20%;
-	
-}
+	.header-left > h2 {
+		margin-left: 10px;
+	}
+	/*------------ TOP ----------------------*/
+	.top-wrapper {
+		padding: 200px 0 200px 0;
+		max-width: 100%;
+		height: auto;
+		background-image: url(image/starbucks.jpg);
+		background-size: cover;
+		border-radius: 5px;
+		margin-top: 7%;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	/*------------ PROF ---------------------*/
+	.prof-wrapper {
+		background-color: #82be28;
+		color: white;
+		margin: 20px 20%;
+		border-radius: 5px;
+		-webkit-overflow-scrolling: touch;
+	}
 
-.heading {
+	/*------------ SKILL --------------------*/
+	.skill-wrapper {
+		background-color: #82be28;
+		color: white;
+		margin-left: 10px;
+		border-radius: 5px;
+		margin: 20px 20%;
+		
+	}
 
-}
+	.heading {
 
-.heading > h2 {
-	font-weight: bold;
-}
+	}
 
-.lang {
-	/* float: left; */
-}
+	.heading > h2 {
+		font-weight: bold;
+	}
 
-.C {
+	.lang {
+		/* float: left; */
+	}
 
-}
+	.C {
 
-.Ruby{
+	}
 
-}
+	.Ruby{
 
-.Swift {
-	
-}
+	}
 
-.Java {
+	.Swift {
+		
+	}
 
-}
+	.Java {
 
-.Haskell {
-	
-}
-/*------------- RESEARCH -----------------*/
-.research-wrapper {
-	background-color: #82be28;
-	color: white;
-	margin-left: 10px;
-	border-radius: 5px;
-	margin: 20px 20%;
-}
+	}
 
-/*------------- ENVIRONMENT -----------------*/
-.environment-wrapper {
-	background-color: #82be28;
-	color: white;
-	margin-left: 10px;
-	border-radius: 5px;
-	margin: 20px 20%;
-}
+	.Haskell {
+		
+	}
+	/*------------- RESEARCH -----------------*/
+	.research-wrapper {
+		background-color: #82be28;
+		color: white;
+		margin-left: 10px;
+		border-radius: 5px;
+		margin: 20px 20%;
+	}
 
-/*------------- PROJECTS -----------------*/
-.projects-wrapper {
-	background-color: #82be28;
-	color: white;
-	margin-left: 10px;
-	border-radius: 5px;
-	margin: 20px 20%;
-}
+	/*------------- ENVIRONMENT -----------------*/
+	.environment-wrapper {
+		background-color: #82be28;
+		color: white;
+		margin-left: 10px;
+		border-radius: 5px;
+		margin: 20px 20%;
+	}
 
-/*------------- ACCOUNT -----------------*/
-.account-wrapper {
-	text-align: center;
-	margin-bottom: 100px;
-	color: white;
-}
+	/*------------- PROJECTS -----------------*/
+	.projects-wrapper {
+		background-color: #82be28;
+		color: white;
+		margin-left: 10px;
+		border-radius: 5px;
+		margin: 20px 20%;
+	}
 
-.button {
-	padding: 10px 10px;
-	font-color: white;
-	display: inline-block;
-	opacity: 0.8;
-	border-radius: 4px;
-	text-decoration: none;
-}
+	/*------------- ACCOUNT -----------------*/
+	.account-wrapper {
+		text-align: center;
+		margin-bottom: 100px;
+		color: white;
+	}
 
-.button:hover {
-	opacity: 1;
-}
+	.button {
+		padding: 10px 10px;
+		font-color: white;
+		display: inline-block;
+		opacity: 0.8;
+		border-radius: 4px;
+		text-decoration: none;
+	}
 
-.twitter {
-	background-color: #55acee;
-	color: white;
+	.button:hover {
+		opacity: 1;
+	}
 
-}
+	.twitter {
+		background-color: #55acee;
+		color: white;
 
-.facebook {
-	background-color: #3b5998;
-	color: white;
-}
+	}
 
-.github {
-	background-color: black;
-	color: white;
-}
+	.facebook {
+		background-color: #3b5998;
+		color: white;
+	}
 
-.qiita {
-	background-color: #7CFC00;
-	color: white;
-}
+	.github {
+		background-color: black;
+		color: white;
+	}
 
-.slideshare {
-	background-color: #00008B;
-	color: white;
-}
+	.qiita {
+		background-color: #7CFC00;
+		color: white;
+	}
 
-.fa {
-	margin-right: 5px;
-}
+	.slideshare {
+		background-color: #00008B;
+		color: white;
+	}
 
-/*------------- FOOTER -----------------*/
+	.fa {
+		margin-right: 5px;
+	}
 
-footer {
-	text-align: center;
-}
+	/*------------- FOOTER -----------------*/
 
+	footer {
+		text-align: center;
+	}

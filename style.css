@@ -1,22 +1,27 @@
 /*	style.css */
 
+@charset "utf-8"
+
+/* 共通の設定 */
+
 #header {
 	background-color: white;
 	border-radius: 5px;
 }
-body {
-	background-image: url("./image/starbucks.jpg");
-	font-family: tahoma;
+
+#header > .header-nav > div > ul {
+	text-align: center;
 }
+
 .header-nav > div >ul > li {
 	list-style: none;
 	display: inline;
-	margin-left: 5%;
 }
 
 #menu {
 	background-color: white;
 	border-radius: 5px;
+	margin-top: 5%;
 
 }
 
@@ -32,6 +37,7 @@ body {
 #skill {
 	background-color: white;
 	border-radius: 5px;
+	margin-top: 5%;
 }
 .skill-tag {
 	width: 40%;
@@ -45,6 +51,7 @@ body {
 .research {
 	background-color: white;
 	border-radius: 5px;
+	margin-top: 5%;
 }
 
 .research > h2 {
@@ -58,10 +65,11 @@ body {
 .environment {
 	background-color: white;
 	border-radius: 5px;
+	margin-top: 5%;
 }
 
 .sns {
-	
+	text-align: center;
 }
 
 .sns > .twitter {
@@ -92,4 +100,19 @@ body {
 
 #footer {
 	text-align: center;
+}
+
+body {
+	background-image: url("./image/starbucks.jpg");
+	font-family: tahoma;
+}
+
+/* スマホの設定 */
+/* タブレットの設定*/
+@media all and (min-width: 480px) {
+
+}
+/* PCの設定 */
+@media all and (min-width: 768px) {
+
 }
